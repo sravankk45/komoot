@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Komoot Test Suite">	
+	<test name="Komoot Tests">
+		<classes>
+		<class name="com.komoot.tests.KomootTests"></class>
+		</classes>
+	</test>
+</suite>

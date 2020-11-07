@@ -33,4 +33,12 @@ public class TestBase{
 		String baseUri=properties.getProperty("baseUri");
 		return baseUri;
 	}
+	public String getEmailAddress() {
+		String userName=properties.getProperty("emailAddress");
+		return userName;
+	}
+	public String getPassword() {
+		String password=properties.getProperty("password");
+		return password;
+	}
 }
